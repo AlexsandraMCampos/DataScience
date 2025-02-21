@@ -11,8 +11,9 @@ for i in range (5):
     total += nota
 if total > lojab:
     diferenca = total - nota
-    print(f"O faturamento da loja A foi superado o faturamento da loja B em {diferenca} ")
+    print(f"O faturamento da loja A foi superado o faturamento da loja B em R${diferenca:.2f} ")
 else:
     print(f"O faturamento da loja A não superou o faturamento da loja B.")
 
 
+ 
