@@ -4,6 +4,19 @@
 # Entrada: 20
 # Saída: 0 1 1 2 3 5 8 13
 
+# Como resolver:
+# - solicitar um número
+# - escrever a sequência de Fibonacci deste número
+# - apresentar a sequência
 
-while n <= n:
-    print
+
+n = int(input("Digite um número: "))
+a,b = 0,1 
+
+fibonacci = []
+
+while a <= n:
+        fibonacci.append(a)
+        a,b =b, a+b
+print(f"A sequência do {n} é : {fibonacci}")
+    
