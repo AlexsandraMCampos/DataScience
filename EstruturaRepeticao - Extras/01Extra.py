@@ -14,7 +14,6 @@ n = int(input("Digite um número: "))
 a,b = 0,1 
 
 fibonacci = []
-
 while a <= n:
         fibonacci.append(a)
         a,b =b, a+b

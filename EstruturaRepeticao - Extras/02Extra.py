@@ -13,9 +13,9 @@ while n > 0:
         inverso = inverso *10 + digito
         n = n // 10
 if original  == inverso:
-        print(f"{original} ~e um palindromo")
+        print(f"{original} é um palindromo.")
 else:
-        print(f"O número {original} Não é um palindromo")
+        print(f"O número {original} Não é um palindromo.")
         
         
         
