@@ -10,8 +10,12 @@
 
 numero = [1,21,76,42,49]
 
-crescente = sorted(numero)
-print(crescente)
+# crescente = sorted(numero)
+# print(crescente)
+# decrescente = crescente[::-1]
+# print(decrescente)
 
-decrescente = crescente[::-1]
-print(decrescente)
+# Outra maneira
+
+print(sorted(numero))
+print(sorted( numero, reverse =True))
